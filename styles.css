@@ -1,9 +1,10 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "New Rocker", system-ui;
     margin: 0;
     padding: 0;
     background-color: #000;
-    color: #fff;
+    color: #fff !important;
+
 }
 
 header {
@@ -39,7 +40,7 @@ header {
 
 .hero {
     height: 100vh;
-    background-image: url('septum.jpg');
+    background-image: url(./parallax.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,15 +62,18 @@ header {
 
 .hero h1 {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .cta-button {
-    background-color: #ff00ff;
+    background-color: rebeccapurple;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    border-color: purple;
+   
 }
 
 .about {
@@ -114,12 +118,13 @@ header {
 .service-card img {
     width: 100%;
     border-radius: 10px;
+    object-fit:contain;
 }
 
 .service-button {
     display: inline-block;
     margin-top: 10px;
-    background-color: #ff00ff;
+    background-color: rebeccapurple;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -167,7 +172,7 @@ header {
 
 .booking-cta {
     padding: 50px 20px;
-    background-color: #ff00ff;
+    background-color: rgb(83, 2, 83);
     text-align: center;
 }
 
@@ -203,3 +208,39 @@ footer {
     width: 20px;
     margin-left: 10px;
 }
+
+.btn-primary
+{
+    --bs-btn-bg:rebeccapurple;
+    --bs-btn-border-color: rebeccapurple;
+    --bs-btn-hover-color:white;
+    --bs-btn-hover-bg:rebeccapurple;
+    --bs-btn-hover-border-color:rebeccapurple;
+    --bs-btn--active-color:white;
+    --bs-btn--active-bg:rebeccapurple;
+    --bs-btn--active-border-color:rebeccapurple;
+}
+.testimonial p {
+    font-style: italic;
+    color: #ccc;
+    
+}
+
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.unifrakturmaguntia-bold {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
