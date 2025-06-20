@@ -243,4 +243,8 @@ footer {
   font-style: normal;
 }
 
+#intropicture{
+    border-radius:50%;
+    width: 150px;
+}
 
